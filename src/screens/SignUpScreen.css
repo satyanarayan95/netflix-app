@@ -1,0 +1,79 @@
+.loginScreen{
+    position: relative;
+    height:100%;
+    background: url("https://cdn.hipwallpaper.com/i/98/21/dUyCkp.jpg")center no-repeat ;
+    background-size:cover ;
+}
+.loginScreen__gradient{
+    width: 100%;
+    z-index: 1;
+    height: 100vh;
+    background: rgba(0,0,0,0.4);
+    background-image: linear-gradient(
+    to top,
+    rgba(0,0,0,0.8) 0,
+    rgba(0,0,0,0)60%,
+    rgba(0,0,0,0.8)100%
+
+    );
+}
+.loginScreen__body{
+    z-index: 1;
+    color: #fff;
+   
+    position: absolute;
+    top:30%;
+    margin-left: 660px;
+    margin-right: auto;
+    text-align: center;
+    
+    margin-bottom: 1rem;
+    
+    
+   
+}
+.loginScreen__logo{
+    position: fixed;
+    left: 0;
+    width: 150px;
+    object-fit: contain;
+    padding-left: 20px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+.loginScreen__body>form{
+    display: grid;
+    flex-direction: column;
+
+}
+.loginScreen__body>form>input{
+    outline-width: 0;
+    height: 40px;
+    margin-bottom: 14px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 15px;
+}
+.loginScreen__body>form>button{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: red;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin-top:20px ;
+}
+.loginScreen__body>form>h1{
+    text-align: left;
+    margin-bottom: 25px;
+}
+.signupScreen__grey{
+    color: grey;
+}
+.signUpScreen__link:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+
